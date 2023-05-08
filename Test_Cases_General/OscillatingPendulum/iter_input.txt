@@ -1,0 +1,21 @@
+*////////////////////////////////////////////////////////////////////////////
+*//		      Solid Solver Input Data File	                  //
+*//  		      Author: Adrián Antón Álvarez			  //									
+*////////////////////////////////////////////////////////////////////////////
+
+*////////////////////////////////////////////////////////////////////////////
+*// Generalized forces xyz and euler parameters
+*//				Units forces xyz N, euler parameters Nm
+*// Body_index       Fx   Fy   Fz       M_x   M_y   M_z  
+*////////////////////////////////////////////////////////////////////////////
+       1             0	  0    -117000	   0    0    0
+       2             0    0    -117000     0    0    0
+ 
+ 
+*////////////////////////////////////////////////////////////////////////////
+*// Generalized acceleration of constrains
+*//						  Units length m, angle rad 	
+*// Master_index  Slave_index ddx_fix ddy_fix ddz_fix ddangle_x_fix ddangle_y_fix ddangle_z_fix
+*////////////////////////////////////////////////////////////////////////////
+       0              1         0     0     0        0         0            0      
+       1              2         0     0     0        0         0            0  
